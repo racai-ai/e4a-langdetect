@@ -2,7 +2,7 @@
 This is a Python 3 application and Docker container for language identification, based on the `langdetect` PyPI package to which we have added the Luxembourgish `lb` profile. It works for the languages of the project, namely German, French, Luxembourgish, Romanian, Danish and English. If text in other language is supplied, the ISO 639-1 language code is returned.
 
 ## Docker container
-This repository was deployed in a Docker container available on [Docker Hub](https://hub.docker.com/repository/docker/raduion/e4alangdetect). Issue a `docker pull raduion/e4alangdetect:1.0` to get it.
+This repository was deployed in a Docker container available on [Docker Hub](https://hub.docker.com/r/raduion/e4alangdetect). Issue a `docker pull raduion/e4alangdetect:1.0` to get it.
 
 ## How to use
 Test the installation (you have to `pip install pytest` first):
