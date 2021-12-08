@@ -1,4 +1,3 @@
-import sys
 import os
 from shutil import copy
 from langdetect import detect_langs

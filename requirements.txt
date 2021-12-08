@@ -1,0 +1,4 @@
+langdetect
+Flask
+Flask-RESTful
+uWSGI

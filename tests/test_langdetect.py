@@ -19,7 +19,7 @@ def test_german():
 
 def test_french():
     ld = E4ALangDetect(
-        "L'Euro a bientôt 20 ans, et pour l'occasion un nouveau look... pour 2024 au mieux")
+        "L'Euro a bientôt 20 ans, et pour l'occasion un nouveau look... pour 2024 au mieux.")
     assert ld.lang_id() == 'French'
 
 
